@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-24 06:11:34 --> Invalid file: Hai.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Hai.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('Hai', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(9): view('Hai')
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
