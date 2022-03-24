@@ -12,4 +12,8 @@ class Home extends BaseController
     public function brockenAuthentication(){
         return view('authentication');
     }
+
+    public function register(){
+        return view('register');
+    }
 }
