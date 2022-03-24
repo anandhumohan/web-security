@@ -8,7 +8,7 @@
 <body>
 	<div class="login col-md-3 mx-auto text-center" style="margin-top: 200px;">
 		<?php $validation = \Config\Services::validation(); ?>
-		<form method="post" action="<?php echo base_url('login/validateCredentials');?>">
+		<form method="post" action="<?php echo base_url('home/validateCredentials');?>">
 			<h2 >Register</h2>
 			<div class="form-group mb-3">
 				<input type="text" name="firstname" placeholder="first name" class="form-control">
