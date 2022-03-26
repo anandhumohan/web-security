@@ -1,0 +1,16 @@
+CRITICAL - 2022-03-26 09:54:39 --> syntax error, unexpected token "{", expecting "("
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-26 09:54:49 --> syntax error, unexpected token "{", expecting "("
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}

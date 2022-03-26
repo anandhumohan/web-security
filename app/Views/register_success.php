@@ -6,6 +6,6 @@
 	<title></title>
 </head>
 <body style = "background-color: rgba(249, 180, 69, 0.5);">
-	<h5>You are successfully logged in with two factor authentication</h5>
+	<h5>You are successfully Registered</h5>
 </body>
 </html>

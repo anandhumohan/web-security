@@ -1,0 +1,250 @@
+CRITICAL - 2022-03-25 09:51:43 --> syntax error, unexpected variable "$pwd"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/register')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/register')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 09:51:45 --> syntax error, unexpected variable "$pwd"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/brockenAut...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/brockenAut...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 09:52:50 --> syntax error, unexpected variable "$pwd"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/brockenAut...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/brockenAut...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 09:53:53 --> syntax error, unexpected variable "$pwd"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 09:55:11 --> syntax error, unexpected variable "$pwd"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 09:56:35 --> [] operator not supported for strings
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-03-25 10:33:55 --> syntax error, unexpected token "function"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/register')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/register')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 10:34:29 --> syntax error, unexpected token "function"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/brockenAut...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/brockenAut...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 10:34:35 --> syntax error, unexpected token "function"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 10:34:56 --> syntax error, unexpected identifier "publich", expecting "function" or "const"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 10:35:19 --> Undefined variable $emptyArray
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 140)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 10:35:39 --> file_get_contents(/Applications/XAMPP/xamppfiles/htdocs/WebApp/writable/password_list.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/Applications/X...', 152)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(152): file_get_contents('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(142): App\Controllers\Home->topPasswordCheck()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2022-03-25 14:57:20 --> syntax error, unexpected identifier "createUser", expecting variable
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/register')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/register')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 14:57:25 --> syntax error, unexpected identifier "createUser", expecting variable
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 14:58:10 --> syntax error, unexpected identifier "createNewUser", expecting variable
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 15:39:17 --> Undefined variable $username
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 134)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(188): App\Controllers\Home->createNewUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2022-03-25 15:41:24 --> Undefined variable $username
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 134)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(186): App\Controllers\Home->createNewUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#7 {main}
+ERROR - 2022-03-25 15:42:10 --> Column 'lastname' cannot be null
+ERROR - 2022-03-25 15:44:39 --> Column 'lastname' cannot be null
+ERROR - 2022-03-25 15:45:53 --> Column 'lastname' cannot be null
+ERROR - 2022-03-25 15:49:03 --> Column 'email' cannot be null
+CRITICAL - 2022-03-25 17:34:31 --> syntax error, unexpected token "return"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/register')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/register')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 17:35:57 --> syntax error, unexpected token "return"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('home/index')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2022-03-25 17:51:26 --> Undefined variable $message
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Views/register.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 55)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(192): view('register', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-03-25 17:52:13 --> Undefined variable $message
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Views/register.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 55)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(21): view('register')
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-03-25 17:52:30 --> Undefined variable $message
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Views/register.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 55)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(192): view('register')
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-03-25 17:53:16 --> syntax error, unexpected identifier "home", expecting "," or ";"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(21): view('register')
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2022-03-25 17:53:19 --> syntax error, unexpected identifier "home", expecting "," or ";"
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(21): view('register')
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2022-03-25 17:55:55 --> Undefined variable $message
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Views/register.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 48)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(192): view('register')
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-03-25 17:56:50 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Views/register.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 48)
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(192): view('register')
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateRegister()
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-03-25 19:37:06 --> [HTTP 401] Unable to create record: Authenticate
+#0 /Applications/XAMPP/xamppfiles/htdocs/WebApp/vendor/twilio/sdk/src/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/WebApp/vendor/twilio/sdk/src/Twilio/Rest/Api/V2010/Account/MessageList.php(69): Twilio\Version->create('POST', '/Accounts/AC256...', Array, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(37): Twilio\Rest\Api\V2010\Account\MessageList->create('+919900470055', Object(Twilio\Values))
+#3 /Applications/XAMPP/xamppfiles/htdocs/WebApp/app/Controllers/Home.php(79): App\Controllers\Home->sendToken(844007)
+#4 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(825): App\Controllers\Home->validateCredentials()
+#5 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/WebApp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/WebApp/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#9 {main}

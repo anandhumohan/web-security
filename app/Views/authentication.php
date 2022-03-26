@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
 </head>
-<body>
+<body style = "background-color: rgba(249, 180, 69, 0.5);">
 	<div class="login col-md-3 mx-auto text-center" style="margin-top: 250px;">
 		<?php $validation = \Config\Services::validation(); ?>
 		<form method="post" action="<?php echo base_url('home/validateCredentials');?>">
