@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home</title>
 </head>
-<body style = "background-color: rgba(249, 180, 69, 0.5);">
+<body class="bg-light">
 	<div class="row" style="display: flex;
   justify-content: center; margin-top: 300px;">
 		<div class="col-sm-3">
@@ -21,7 +21,7 @@
 			<div class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h5 class="card-title">A7: Cross Site Scripting</h5>
-					<p class="card-text">This is type of innjection, some malations scripts are injected.</p>
+					<p class="card-text">It occures when some malicious scripts are injected.</p>
 					<a href="<?=base_url('home/tryxss');?>" class="btn btn-primary btn-block">Here</a>
 				</div>
 			</div>
@@ -29,10 +29,9 @@
 		<div class="col-sm-3">
 			<div class="card" style="width: 18rem;">
 				<div class="card-body">
-					<h5 class="card-title">OSWAP 3</h5>
-					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-					<p class="card-text">Sample 3.</p>
-					<a href="#" class="btn btn-primary btn-block">Here</a>
+					<h5 class="card-title">A1: Injection</h5>
+					<p class="card-text">When input has some malicious code hat compromise data</p>
+					<a href="<?=base_url('home/brockenAuthentication');?>" class="btn btn-primary btn-block">Here</a>
 					</div>
 				</div>
 			</div>

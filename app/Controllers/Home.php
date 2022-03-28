@@ -193,6 +193,24 @@ class Home extends BaseController
         return view('xss');
     }
 
+    public function addUserInput(){
+        helper('form');
+        $request = \Config\Services::request();
+        $username =  htmlspecialchars($this->request->getVar('username'));
+        $userModel = new \App\Models\User();
+
+        $data = [
+            'username'  => $username
+        ];
+        
+        if($userModel->addUser($data)){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
 
 }
 
