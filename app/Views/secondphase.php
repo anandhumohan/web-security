@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
 </head>
-<body>
+<body class="bg-light">
 	<div class="login col-md-3 mx-auto text-center" style="margin-top: 200px;">
 		<?php $validation = \Config\Services::validation(); ?>
 		<form method="post" action="<?php echo base_url('home/validateOtp');?>">
-			<h2 >OTP</h2>
+			<h2 >Please Enter</h2>
 			<div class="form-group mb-3">
-				<input type="number" name="otp" placeholder="6 digit otp class="form-control">
+				<input type="numnber" name="otp" placeholder="6 digit One Time Password"class="form-control">
 					<div class='alert-danger'>
 					</div>
 			</div>

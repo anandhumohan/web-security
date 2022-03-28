@@ -21,21 +21,19 @@ class Home extends BaseController
         return view('register');
     }
 
-
+    //Twilio call handler for sending SMS
     public function sendToken($otp){
-        //twilio call handler for sending the token
-        //echo "string"; exit();
-        $account_sid = 'AC256b99d0305e99317525152e9a31f327';
-        $auth_token = '8720ee6cb27f021dd5ce58b8d3ea5146';
 
+        $account_sid = 'AC256b99d0305e99317525152e9a31f327';
+        $auth_token = 'd59fe2d0b5af48e8f0c3725f5e0ce70e';
         $twilio_number = "+15407248646";
         $client = new Client($account_sid, $auth_token);
         $client->messages->create(
-        '+919900470055',
-        array(
-            'from' => $twilio_number,
-            'body' => 'your 6 digit secure opt is '.$otp
-        )
+            '+919900470055',
+            array(
+                'from' => $twilio_number,
+                'body' => 'your 6 digit secure opt is '.$otp
+            )
         );
     }
 
@@ -72,9 +70,7 @@ class Home extends BaseController
             if($userSet){
                 $passWord = $userSet['password'];
                 $pwdWerify = password_verify($password, $passWord);
-                //print_r($pwdWerify);
                 if($pwdWerify){
-                    //have to generat ethe code and save it in tha session
                     $otp = random_int(100000, 999999);
                     $result = $this->sendToken($otp);
                     $userdata = [
@@ -85,7 +81,6 @@ class Home extends BaseController
                     ];
                     $session = session();
                     $session->set($userdata);
-                    //print_r($_SESSION);exit();
                     return view('secondphase');
                 }else{
                     $session = session();
@@ -113,4 +108,116 @@ class Home extends BaseController
         }
 
     }
+
+    public function createNewUser(){
+        helper('form');
+        $request = \Config\Services::request();
+        //print_r($request);exit();
+        $firstname = $this->request->getVar('firstname');
+        $lastname = $this->request->getVar('lastname');
+        $email = $this->request->getVar('email');
+        $phone = $this->request->getVar('phone');
+        $username = $this->request->getVar('username');
+        $password = password_hash($this->request->getVar('password'),PASSWORD_DEFAULT);
+        $userModel = new \App\Models\User();
+
+        $data = [
+            'firstname' => $firstname,
+            'lastname'  => $lastname,
+            'email'  => $email,
+            'phone'  => $phone,
+            'username'  => $username,
+            'password'  => $password
+        ];
+        
+        if($userModel->createUser($data)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public function topPasswordCheck($pwd){
+
+        $lines = file(WRITEPATH."password_list.txt");
+        foreach($lines as $line)
+        {   
+            if($line == $pwd)
+                return true;
+        }
+        return false;
+    }
+
+    public function validateRegister(){
+        $message = array();
+        $pwd = $this->request->getVar('password');
+
+        if (strlen($pwd) < 8) {
+            $message[] = "atlease  8 character";
+        }
+
+        if (!preg_match("#[0-9]+#", $pwd)) {
+            $message[] = "at least one number";
+        }
+
+        if (!preg_match("#[a-z]+#", $pwd)) {
+            $message[] = "at least one small letter";
+        } 
+        if (!preg_match("#[A-Z]+#", $pwd)) {
+            $message[] = "at least one capital letter";
+        }     
+
+        if (!preg_match("#[^a-zA-Z\d]+#", $pwd)) {
+            $message[] = "at least one special charancter letter";
+        }
+        if(count($message) == 0){
+            if($this->topPasswordCheck($pwd)){
+                $message[] = "Password is too weak";
+                $session = session();
+                $session->setFlashdata('msg', $message);
+                return view('register');
+            }else{
+                if($this->createNewUser()){
+                    return view('register_success');
+                }
+            }
+        }else{
+            $session = session();
+            $session->setFlashdata('msg', $message);
+            return view('register');
+        }
+
+    }
+
+    public function tryxss(){
+        return view('xss');
+    }
+
+    public function addUserInput(){
+        helper('form');
+        $request = \Config\Services::request();
+        $username =  htmlspecialchars($this->request->getVar('username'));
+        $userModel = new \App\Models\User();
+
+        $data = [
+            'username'  => $username
+        ];
+        
+        if($userModel->addUser($data)){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
+
 }
+
+
+
+
+
+
+
+

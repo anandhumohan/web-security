@@ -5,10 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login</title>
 </head>
-<body>
-	<div class="login col-md-3 mx-auto text-center" style="margin-top: 200px;">
-		<?php $validation = \Config\Services::validation(); ?>
-		<form method="post" action="<?php echo base_url('home/validateCredentials');?>">
+<body class="bg-light">
+	<div class="login col-md-3 mx-auto text-center" style="margin-top: 100px;">
+		<form method="post" action="<?php echo base_url('home/validateRegister');?>">
 			<h2 >Register</h2>
 			<div class="form-group mb-3">
 				<input type="text" name="firstname" placeholder="first name" class="form-control">
@@ -16,25 +15,29 @@
 					</div>
 			</div>
 			<div class="form-group mb-3">
-				<input type="text" name="secondname" placeholder="second name" class="form-control">
+				<input type="text" name="lastname" placeholder="last name" class="form-control">
 					<div class='alert-danger'>
 					</div>
 			</div>
 			<div class="form-group mb-3">
 				<input type="text" name="username" placeholder="username" class="form-control">
-				<?php if($validation->getError('username')) {?>
 					<div class='alert-danger'>
-						<?= $error = $validation->getError('username'); ?>
 					</div>
-				<?php }?>
+			</div>
+			<div class="form-group mb-3">
+				<input type="email" name="email" placeholder="email" class="form-control">
+					<div class='alert-danger'>
+					</div>
+			</div>
+			<div class="form-group mb-3">
+				<input type="phone" name="phone" placeholder="phone" class="form-control">
+					<div class='alert-danger'>
+					</div>
 			</div>
 			<div class="form-group mb-3">
 				<input type="password" name="password" placeholder="password" class="form-control">
-				<?php if($validation->getError('password')) {?>
 					<div class='alert-danger'>
-						<?= $error = $validation->getError('password'); ?>
 					</div>
-				<?php }?>
 			</div>
 			<div class="form-group mb-3">
 				<input type="password" name="re-password" placeholder="re-password" class="form-control">
@@ -42,11 +45,12 @@
 					</div>
 			</div>
 			<?php $session = \Config\Services::session(); if ($session->getFlashdata('msg')) { ?>
-        		<div class="alert-danger"> <?php echo $session->getFlashdata('msg') ?> </div>
+        		<div class="alert-danger"> <?php foreach ($session->getFlashdata('msg') as $value) { echo $value; echo "<br>";}; ?> </div>
     		<?php } ?>
 			<div class="form-group mb-3">
 				<input type="submit" name="submit" class="btn btn-primary btn-block">
 			</div>
+			<a href="<?=base_url('home/brockenAuthentication');?>">Login</a>
 		</form>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
